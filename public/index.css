@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: magenta;
 }
 
 .navbar {
@@ -14,4 +13,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.checkbox {
+  display: flex;
 }

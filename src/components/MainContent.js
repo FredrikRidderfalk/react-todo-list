@@ -3,13 +3,23 @@ import React from "react";
 function MainContent() {
   return (
     <main>
-      <input type="checkbox" id="panties" name="panties" />
+      <input type="checkbox" className="checkbox" id="panties" name="panties" />
       <label for="panties">Panties</label>
-      <input type="checkbox" id="left-sock" name="left-sock" />
+      <input
+        type="checkbox"
+        className="checkbox"
+        id="left-sock"
+        name="left-sock"
+      />
       <label for="left-sock">Left sock</label>
-      <input type="checkbox" id="right-sock" name="right-sock" />
+      <input
+        type="checkbox"
+        className="checkbox"
+        id="right-sock"
+        name="right-sock"
+      />
       <label for="right-sock">Right sock</label>
-      <input type="checkbox" id="tshirt" name="tshirt" />
+      <input type="checkbox" className="checkbox" id="tshirt" name="tshirt" />
       <label for="tshirt">Tech T-shirt</label>
     </main>
   );
