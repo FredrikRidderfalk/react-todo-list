@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+.todo-item {
+  display: flex;
+}
+
 .navbar {
   height: 100px;
   background-color: #333;
