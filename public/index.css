@@ -13,6 +13,10 @@ input[type="checkbox"]:focus {
   outline: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 /* Navbar */
 
 .navbar {
@@ -65,7 +69,7 @@ input[type="checkbox"]:focus {
   height: 100px;
   background-color: #333;
   color: whitesmoke;
-  margin: 15px 0;
+  margin: 30px 0 15px;
   text-align: center;
   font-size: 30px;
   display: flex;

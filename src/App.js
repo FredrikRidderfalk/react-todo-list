@@ -28,7 +28,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      answer: "Yes",
+      title: "Shopping list",
     };
   }
 
@@ -38,7 +38,7 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        <h1>Is state important to know? {this.state.answer}</h1>
+        <h1>{this.state.title}</h1>
         <MainContent />
         <Footer />
       </div>
